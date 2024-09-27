@@ -1,0 +1,68 @@
+.fc-col-header-cell {
+  border: none !important;
+
+  border-bottom: 1px solid #d3d3d3 !important;
+  padding-bottom: 10px !important;
+}
+.fc-header-toolbar {
+  margin-top: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.fc-daygrid-day-top {
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.fc-daygrid-day {
+  aspect-ratio: 1;
+}
+.fc-daygrid-day :hover {
+  cursor: pointer;
+}
+.fc-today-button {
+  background-color: white !important;
+  color: #0f4c81 !important;
+  padding: 0.3em 1em !important;
+  border-radius: 10px !important;
+}
+.fc-today-button::first-letter {
+  text-transform: uppercase !important;
+}
+.fc-today-button :focus {
+  box-shadow: none !important;
+}
+
+.fc-prev-button,
+.fc-next-button {
+  background-color: white !important;
+  color: #0f4c81 !important;
+  border: none !important;
+}
+.fc-prev-button:focus,
+.fc-next-button:focus,
+.fc-today-button:focus {
+  box-shadow: none !important;
+}
+
+.fc-toolbar-title {
+  color: #0f4c81;
+}
+.fc-toolbar-chunk {
+  display: flex;
+  align-items: center;
+}
+
+.fc-scrollgrid-liquid {
+  border: none !important;
+}
+.fc-customViewDropdown-button {
+  background-color: #5684ae !important;
+  border: none !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  border-radius: 10px !important;
+}
+.fc-day-today {
+  background-color: white !important; /* Light yellow background for today */
+}
